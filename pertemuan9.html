@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         p.dotted {border-style: dotted;}
+         p.dashed {border-style: dashed;}
+         p.solid {border-style: solid;}
+         p.double {border-style: double;}
+         p.groove {border-style: groove;}
+         p.ridge {border-style: ridge;}
+         p.inset {border-style: inset;}
+         p.outset {border-style: outset;}
+         p.none {border-style: none;}
+         p.hidden {border-style: hidden;}
+         p.px {
+            border-style: solid;
+            border-width: 5px;
+            }
+        p.medium {
+            border-style: solid;
+            border-width: medium;
+            }
+        p.thick {
+            border-style: solid;
+            border-width: thick;
+            }
+        .element {
+            padding: 5px;
+            border: solid 1px;
+            margin-bottom: 5px;
+            }
+        .radius-5px {border-radius: 5px;}
+        .radius-10px {border-radius: 10px;}
+        .radius {border-radius: 10px 0px;}
+        div {
+            background-color: blueviolet;
+            padding: 10px;
+            }
+        div.first {opacity: 0.1;}
+        div.second {opacity: 0.3;}
+        div.third {opacity: 0.6;}
+        div {padding: 10px;}
+        div.first {background-color: rgba(255, 0, 0, 0.1);}
+        div.second {background-color: rgba(255, 0, 0, 0.3);}
+        div.third {background-color: rgba(255, 0, 0, 0.6);}
+        div.fourth {background-color: rgb(255, 0, 0, 1);}
+        div {padding: 10px;}
+
+        div.first {background-color: hsla(255, 100%, 50%, 0.1);}
+        div.second {background-color: hsla(255, 100%, 50%, 0.3);}
+        div.third {background-color: hsla(255, 100%, 50%, 0.6);}
+        div.fourth {background-color: hsl(255, 100%, 50%);}
+        .shadow-1 {
+        text-shadow: 2px 2px;
+         }
+        .shadow-2 {
+        text-shadow: 2px 2px yellow;
+        }
+        .shadow-3 {
+        text-shadow: 2px 2px 10px red;
+        }
+        div {
+        width: 500px;
+        height: 200px;
+        background-color: antiquewhite;
+        text-align: center;
+        padding: 10px;
+        }
+        .box-shadow {
+        box-shadow: 5px 5px 5px gray;
+        }
+        div {
+        width: 900px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-bottom: 5px;
+        }
+        .two-color {
+        background-image: linear-gradient(green, yellow);
+        }
+        .multiple-color {
+        background-image: linear-gradient(green, yellow, pink);
+        }
+        .to-right {
+        background-image: linear-gradient(to right, green, yellow, pink);
+        }
+        .diagonal {
+        background-image: linear-gradient(to right bottom, green, yellow, pink);
+        }
+        div {
+        width: 900px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-bottom: 5px;
+        }
+        .two-color {
+        background-image: radial-gradient(ellipse, green, yellow);
+        }
+        .multiple-color {
+        background-image: radial-gradient(ellipse, green, yellow, pink);
+        }
+        .circle {
+        background-image: radial-gradient(circle, green, yellow, pink);
+        }
+        div {
+        width: 900px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-bottom: 5px;
+       }
+        .two-color {
+        background-image: conic-gradient(green, yellow);
+       }
+        .three-color {
+        background-image: conic-gradient(green, yellow, pink);
+      }
+        .five-color {
+        background-image: conic-gradient(green, yellow, pink, blue, red);
+      }
+        .text-1 {
+        font-family: 'Courier New', Courier, monospace;
+      }
+        .text-2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+        .text-3 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+        .text-1 {
+        font-style: normal;
+      }
+        .text-2 {
+        font-style: italic;
+      }
+        .text-3 {
+        font-style: oblique;
+      }
+      .text-1 {
+        font-weight: normal;
+     }
+        .text-2 {
+        font-weight: bold;
+     }
+        </style>
+</head>
+<body>
+    <p class="dotted">Elemen ini menggunakan border-style : dotted</p>
+    <p class="dashed">Elemen ini menggunakan border-style : dashed</p>
+    <p class="solid">Elemen ini menggunakan border-style : solid</p>
+    <p class="double">Elemen ini menggunakan border-style : double</p>
+    <p class="groove">Elemen ini menggunakan border-style : groove</p>
+    <p class="ridge">Elemen ini menggunakan border-style : ridge</p>
+    <p class="inset">Elemen ini menggunakan border-style : inset</p>
+    <p class="outset">Elemen ini menggunakan border-style : outset</p>
+    <p class="none">Elemen ini menggunakan border-style : none</p>
+    <p class="hidden">Elemen ini menggunakan border-style : hidden</p>
+    <p class="px">Elemen ini menggunakan border-width : 5px</p>
+    <p class="medium">Elemen ini menggunakan border-width : medium</p>
+    <p class="thick">Elemen ini menggunakan border-width : thick</p>
+    <div class="element radius-5px">Elemen ini menggunakan properti border-radius : 5px</div>
+    <div class="element radius-10px">Elemen ini menggunakan properti border-radius : 10px</div>
+    <div class="element radius">Elemen ini menggunakan properti border-radius : 10px 0px</div>
+    <div class="first">Elemen ini menggunakan properti opacity : 0.1</div>
+    <div class="second">Elemen ini menggunakan properti opacity : 0.3</div>
+    <div class="third">Elemen ini menggunakan properti opacity : 0.6</div>
+    <div>Elemen ini menggunakan tidak menggunakan properti opacity</div>
+    <div class="first">Elemen ini menggunakan properti background-color : rgba(255, 0, 0, 0.1)</div>
+    <div class="second">Elemen ini menggunakan properti background-color : rgba(255, 0, 0, 0.3)</div>
+    <div class="third">Elemen ini menggunakan properti background-color : rgba(255, 0, 0, 0.6)</div>
+    <div class="fourth">Elemen ini menggunakan properti background-color : rgb(255, 0, 0, 1)</div>
+    <div class="first">Elemen ini menggunakan properti background-color : hsla(255, 100%, 50%, 0.1)</div>
+    <div class="second">Elemen ini menggunakan properti background-color : hsla(255, 100%, 50%, 0.3)</div>
+    <div class="third">Elemen ini menggunakan properti background-color : hsla(255, 100%, 50%, 0.6)</div>
+    <div class="fourth">Elemen ini menggunakan properti background-color : hsl(255, 100%, 50%)</div>
+    <h2 class="shadow-1">Teks Ini Menggunakan Properti shadow-1</h2>
+    <h2 class="shadow-2">Teks Ini Menggunakan Properti shadow-2</h2>
+    <h2 class="shadow-3">Teks Ini Menggunakan Properti shadow-3</h2>
+    <div class="box-shadow">
+        element div ini menggunakan properti box-shadow
+        </div>
+        <div class="two-color">
+            element div ini menggunakan properti background-image : linear-gradient(green,
+            yellow)
+        </div>
+        <div class="multiple-color">
+            element div ini menggunakan properti background-image : linear-gradient(green,
+            yellow, pink)
+        </div>
+        <div class="to-right">
+            element div ini menggunakan properti background-image : linear-gradient(to right,
+            green, yellow, pink)
+        </div>
+        <div class="diagonal">
+            element div ini menggunakan properti background-image : linear-gradient(to right
+            bottom, green, yellow, pink)
+        </div>
+        <div class="two-color">
+            properti background-image : radial-gradient(ellipse, green, yellow)
+            </div>
+            <div class="multiple-color">
+            properti background-image : radial-gradient(ellipse, green, yellow, pink)
+            </div>
+            <div class="circle">
+            properti background-image : radial-gradient(circle, green, yellow, pink)
+            </div>
+            <div class="two-color">
+                properti background-image : conic-gradient(green, yellow)
+                </div>
+                <div class="three-color">
+                properti background-image : conic-gradient(green, yellow, pink)
+                </div>
+                <div class="five-color">
+                properti background-image : conic-gradient(green, yellow, pink)
+                </div>
+                p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic tempore quaerat soluta,
+                vero facilis voluptates possimus odit sint esse atque quae praesentium ipsa, error labore
+                nam aspernatur blanditiis consequuntur maiores?</p>
+                <p class="text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab ex ea
+                accusamus, eligendi dignissimos doloribus inventore consectetur veritatis blanditiis nam
+                aperiam pariatur similique? Aliquam pariatur repudiandae nostrum explicabo assumenda?</p>
+                <p class="text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tenetur,
+                itaque sapiente consequuntur nam expedita ratione cum voluptatum debitis, ipsa, error
+                consequatur inventore ut praesentium reiciendis vel rem placeat fugiat.</p>
+                <p class="text-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sint
+                enim voluptatem temporibus totam? Nobis minima veritatis earum aspernatur, ducimus qui eum
+                cum. Nam vel beatae, fugiat voluptas aliquid vitae.</p>
+                <p class="text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab ex ea
+                    accusamus, eligendi dignissimos doloribus inventore consectetur veritatis blanditiis nam
+                    aperiam pariatur similique? Aliquam pariatur repudiandae nostrum explicabo assumenda?</p>
+                    <p class="text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tenetur,
+                    itaque sapiente consequuntur nam expedita ratione cum voluptatum debitis, ipsa, error
+                    consequatur inventore ut praesentium reiciendis vel rem placeat fugiat.</p>
+                    <p class="text-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sint
+                    enim voluptatem temporibus totam? Nobis minima veritatis earum aspernatur, ducimus qui eum
+                    cum. Nam vel beatae, fugiat voluptas aliquid vitae.</p>
+                    <p class="text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab ex ea
+                        accusamus, eligendi dignissimos doloribus inventore consectetur veritatis blanditiis nam
+                        aperiam pariatur similique? Aliquam pariatur repudiandae nostrum explicabo assumenda?</p>
+                        <p class="text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tenetur,
+                        itaque sapiente consequuntur nam expedita ratione cum voluptatum debitis, ipsa, error
+                        consequatur inventore ut praesentium reiciendis vel rem placeat fugiat.</p>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menggunkan form</title>
+</head>
+<body>
+    <form action="">
+        <label for="nama_depan">Nama Depan</label>
+        <input type="text" name="nama_depan" id="nama_depan"><br>
+        <label for="nama_belakang">Nama Belakang</label>
+        <input type="text" name="nama_belakang" id="nama_belakang"><br>
+
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br>
+
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br>
+        <input type="submit" name="login" value="Login"><br>
+
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br>
+        <input type="reset">
+        <input type="submit" name="login" value="Login"><br>
+        
+        <input type="radio" id="si" name="prodi" value="SI">
+        <label for="si">Sistem Informasi</label><br>
+        <input type="radio" id="ti" name="prodi" value="TI">
+        <label for="ti">Teknik Informatika</label><br>
+        <input type="radio" id="mi" name="prodi" value="MI">
+        <label for="mi">Manajemen Informatika</label><br>
+        <input type="submit" name="simpan" value="Simpan"><br>
+
+        <input type="checkbox" id="desainweb" name="makul" value="Desain Web">
+        <label for="desainweb">Desain Web<label><br>
+        <input type="checkbox" id="apsi" name="makul" value="Analisis Perancangan Sistem">
+        <label for="apsi">Analisis Perancangan Sistem</label><br>
+        <input type="checkbox" id="sim" name="makul" value="Sistem Informasi Manajemen">
+        <label for="sim">Sistem Informasi Manajemen</label><br>
+        <input type="checkbox" id="so" name="makul" value="Sistem Operasi">
+        <label for="so">Sistem Operasi</label><br>
+        <input type="submit" name="simpan" value="Simpan"><br>
+
+        <input type="button" onclick="alert('Anda menekan tombol')" value="Klik
+        Saya"><br>
+
+        <label for="warna">Pilih Warna</label>
+        <input type="color" id="warna" name="warna"><br>
+
+        <label for="tanggal">Input Tanggal Lahir</label>
+        <input type="date" id="tanggal" name="tanggal"><br>
+
+        <label for="tanggal">Input Tanggal Booking</label>
+        <input type="datetime-local" id="tanggal" name="tanggal"><br>
+
+        <label for="email">Input Email Anda</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="nama">Input Nama Anda</label>
+        <input type="text" id="nama" name="nama"><br>
+        <label for="email">Input Email Anda</label>
+        <input type="email" id="email" name="email"><br>
+        <input type="image" src="register.png" alt="Register" width="180px"><br>
+
+        <label for="dokumen">Pilih Dokumen</label>
+        <input type="file" id="dokumen" name="dokumen"><br>
+        <input type="submit" name="upload" value="Upload"><br>
+
+        <label for="nama">Input Name Anda</label>
+        <input type="text" id="nama" name="nama"><br>
+        <input type="hidden" id="id_register" name="id_register" value="12345">
+        <label for="email">Input Email Anda</label>
+        <input type="email" id="email" name="email"><br>
+        <input type="image" src="register.png" alt="Register" width="180px"><br>
+        
+        <label for="angka">Input Angka (1-20)</label>
+        <input type="number" id="angka" name="angka" min="1" max="20"><br>
+
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <input type="submit" value="Submit"><br>
+
+        <label for="cari">Cari:</label>
+        <input type="search" id="cari" name="cari"><br>
+
+        label for="telepon">Masukkan nomor telepon:</label><br><br>
+        <input type="tel" id="telepon" name="telepon" placeholder="0000-0000-0000"
+        pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br><br>
+        <small>Format: 0000-0000-0000</small><br><br>
+        <input type="submit" value="Kirim"><br>
+
+        <label for="waktu">Pilih waktu:</label>
+        <input type="time" id="waktu" name="waktu">
+        <input type="submit" value="Simpan"><br>
+
+        <label for="weburl">Masukkan alamat website:</label>
+        <input type="url" id="weburl" name="weburl">
+        <input type="submit" value="Simpan"><br>
+
+        <label for="minggu">Pilih minggu:</label>
+        <input type="week" id="minggu" name="minggu">
+        <input type="submit" value="Simpan"><br>
+
+        
+        <label for="prodi">Program Studi :</label><br>
+        <select name="prodi">
+        <option value="Sistem Informasi">Sistem Informasi</option>
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Manajemen Informatika">Manajemen Informatika</option>
+        <option value="Komputerisasi Akuntansi">Komputerisasi Akuntansi</option><br>
+
+        <label for="alamat">Masukkan Alamat :</label><br>
+        <textarea name="alamat" rows="10" cols="50"></textarea><br>
+
+        <button type="button" onclick="alert('anda menekan tombol')">Klik Aja</button><br>
+
+        <fieldset>
+            <legend>Login System</legend>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username"><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"><br>
+            <input type="submit" name="login" value="Login"><br>
+            </fieldset>
+
+            <input list="ruangan">
+                <datalist id="ruangan">
+                <option value="201">
+                <option value="202">
+                <option value="203">
+                <option value="204">
+                <option value="205">
+                <option value="206">
+                </datalist>
+            <input type="submit" name="kirim" value="Kirim"><br>
+
+
+    </form>
+</body>
+</html>

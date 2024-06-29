@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<style>
+.datadiri{
+    background-color: #baecf0;
+    color: #538e92;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+}
+.gelombang2{
+    background-color: #02b7c4;
+    color: #f8fbfc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 8%;
+}
+.datadiriorangtua{
+    background-color: #baecf0;
+    color: #538e92;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+}
+.datadiriwali{
+    background-color: #baecf0;
+    color: #538e92;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+}
+.perhatikan{
+    background-color: #baecf0;
+    color: #538e92;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    width: 95%;
+}
+.banner{
+    background-color: #0b003a;
+    color: #faf6f7;
+    border: 10px;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+}
+</style>
+
+<body>
+    <div class="banner">
+     <h1><u><center>Welcome to, PMB STMIK KAPUTAMA</center></h1>
+     <h3><center>SEKOLAH TINGGI MANAJEMEN INFORMATIKA DAN KOMPUTER KAPUTAMA <br>
+        TERAKREDITASI
+        "B" BAN-PT NO. 206/SK/BAN-PT/AKRED/PT/IV/2019</center></h3></u>
+
+        <br>
+        <h1>Formulir Pendaftaran
+        STMIK KAPUTAMA<br>
+        T.A 2024/2025</h1>
+        <h4 class="gelombang2">Gelombang 2</h4>
+        <h4>Pastikan kembali data yang anda isi sudah benar semua & lengkap sebelum melanjutkan.</h4>
+        <p class="perhatikan"><strong>Perhatian!</strong> field yang bertanda bintang * berarti wajib diisi.</p>
+        </div>
+        <hr>
+        <h2 class="datadiri">Data Diri</h2>
+        <form action="">
+            <table>
+                <tr>
+                    <td><strong>NIK:*</strong></td>
+                    </tr>
+                    <tr>
+                        <td><input style="width:250px;" type="text" name="nik"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nama Lengkap:*</strong></td>
+                    </tr>
+                    <tr>
+                        <td><input style="width: 250px;" type="text" name="nama_lengkap"></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Tempat/Tanggal Lahir:*</strong></td>
+                    </tr>
+                    <tr>
+                        <td><input style="width: 250px;" type="text"></td>
+                        <td colspan="3"><input style="width: auto;" type="date" name="tanggal_lahir"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jenis Kelamin:*</strong></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="jeniskelamin" id="lk" value="laki_laki">
+                        <label for="lk">Laki-Laki</label></td>
+                        <td><input type="radio" name="jeniskelamin" id="pr" value="perempuan"><label for="pr">Perempuan</label></label></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Status:*</strong></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="status" id="m" value="menikah"><label for="m">Menikah</label></td>
+                        <td><input type="radio" name="status" id="bm" value="belummenikah"><label for="bm">Belum Menikah</label></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Agama:*</strong></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="agama" id="i" value="islam"><label for="i">Islam</label></td>
+                        <td><input type="radio" name="agama" id="p" value="protestan"><label for="p">Protestan</label></td>
+                        <tr>
+                        <td><input type="radio" name="agama" id="k" value="katholik"><label for="k">Katholik</label></td>
+                        <td><input type="radio" name="agama" id="h" value="hindu"><label for="h">Hindu</label></td>
+                        <tr>
+                        <td><input type="radio" name="agama" id="b" value="buddha"><label for="b">Buddha</label></td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td><strong>Alat Transportasi:*</strong></td>
+                        </tr>
+                        <td><select name="transportasi">
+                            <option value="Jalan kaki">Jalan kaki</option>
+                            <option value="Angkutan umum/bus/pete-pete">Amgkutan umum/bus/pete-pete</option>
+                            <option value="Mobil/bus/ antar jemput">Mobil/bus/antar/jemput</option>
+                            <option value="kereta api">Kereta api</option>
+                            <option value="ojek">0jek</option>
+                            <option value="Andong/bendi/sado/dokar/delman/becak">Andong/bendi/sado/dokar/delman/becak </option>
+                            <option value="Perahu penyeberangan/rakit/getek">Perahu penyeberangan/rakit/getek</option>
+                            <option value="kuda">Kuda</option>
+                            <option value="sepeda">Sepeda</option>
+                            <option value="sepeda motor">Sepeda motor</option>
+                            <option value="mobil pribadi">Mobil pribadi</option>
+                            <option value="lainnya">Lainnya</option>
+                   </select>
+                   <tr>
+                        <td><strong>Jenis Tinggal:*</strong></td>
+                        </tr>
+                            <td><select name="transportasi">
+                                <option value="bersama orang tua">Bersama orang tua</option>
+                                <option value="wali">Wali</option>
+                                <option value="kost">Kost</option>
+                                <option value="asrama">Asrama</option>
+                                <option value="panti asuahan">Panti asuhan</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                            <tr>
+                                <td><strong>Penerima KPS:*</strong></td>
+                            </tr>
+                                <td><select name="penerima kps">
+                                    <option value="tidak">Tidak</option>
+                                    <option value="ya">Ya</option>
+                                    </select>
+                            <tr>
+                                <td><strong>Kewarganegaraan:*</strong></td>
+                            </tr>
+                            <tr>
+                                <td><select name="kewarganegaraan">
+                                    <option value="wni">WNI</option>
+                                    <option value="wna">WNA</option>
+                                    </select>
+                            </tr>
+                            <tr>
+                                <td><label for="alamat"><strong>Alamat Lengkap(Sesuai KTP):*</strong</label><br>
+                                <textarea name="alamat" rows="5" cols="60"></textarea></td>
+                            </tr>
+                               
+                            <tr>
+                                <td><strong>RT/RW:</strong><br>
+                                <input placeholder="RT" style="width: 90px;" type="text" name="rt">
+                                <input placeholder="RW" style="width: 90px;" type="text" name="rw">
+                                <td><strong>Jalan:</strong><br>
+                                <input style="width: 400px;" type="text" name="jalan">
+                                </td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="angka"><strong>Kode Pos :</strong></label><br>
+                                    <input style="width: 250px;" type="number" id="kodepos" min="1" max="1000"></td>
+                                    <td><strong>Kel/Desa :*</strong><br>
+                                    <input style="width: 400px;" type="text" name="kel/des"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Dusun :</strong><br>
+                                    <input style="width: 250px;" type="text" name="dusun"></td>
+                                <td><strong>Kecamatan :*</strong><br>
+                                <input style="width: 400px;" type="text" name="kecamatan"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NPWP :</strong><br>
+                                    <input style="width: 250px;" type="text" name="npwp"></td>
+                                <td><strong>Telp/Hp :*</strong><br>
+                                    <input style="width: 250px;" type="number" id="telp/hp" min="1" max="1000"></td>
+                            </tr>
+                            <tr>
+                                <td><input style="width: 150;" type="hidden"></td>
+                                <td><label for="email"><strong>Email :</strong></label><br>
+                                <input style="width: 400px;" type="email" id="email" name="email"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Asal Sekolah :*</strong><br>
+                                    <input style="width: 500px;" type="text" name="asalsekolah"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NISN :*</strong><br>
+                                    <input style="width: 250px;" type="text" name="nisn"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Jurusan :*</strong><br>
+                                    <input style="width: 250px;" type="text" name="jurusan"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="alamat"><strong>Alamat :*</strong></label><br>
+                                <textarea name="alamat" rows="3" cols="60"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Program Studi :*</strong><br>
+                                    <input type="radio" name="prodi" id="ti" value="teknik"><label for="ti">Teknik Informatika (S1)</label>
+                                    <input type="radio" name="prodi" id="si" value="sistem"><label for="si">Sistem Informasi (S1)</label>
+                                    <br>
+                                    <input type="radio" name="prodi" id="mi" value="manajemen"><label for="mi">Manajemen Informatika (D3)</label>
+                                    <input type="radio" name="prodi" id="ka" value="komputerisasi"><label for="ka">Komputerisasi Akuntansi (D3)</label></td>
+                        </tr>
+                            <tr>
+                                <td><strong>Waktu Belajar :*</strong><br>
+                                    <input type="radio" name="waktu" id="pg" value="pagi"><label for="pg">Pagi</label>
+                                    <input type="radio" name="waktu" id="sr" value="sore"><label for="sr">Sore</label></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pilihan kelas :*</strong><br>
+                                    <input type="radio" name="pilihan" id="rg" value="reguler"><label for="rg">Rgeuler</label>
+                                    <input type="radio" name="pilihan" id="kr" value="karyawan"><label for="kr">Karyawan</label>
+                                    <br>
+                                    <input type="radio" name="pilihan" id="kp" value="kipk"><label for="kp">Kip Kuliah</label></td>
+                            </tr>
+                            <tr>
+                                <td><h1 class="datadiriorangtua"><strong>Data Orang Tua</strong></h1></td><br>
+                            </tr>
+                            <tr>
+                                <td><strong>Nama Ayah :*</strong><br>
+                                    <input style="width: 250px;" type="text" name="namaayah"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NIK :</strong><br>
+                                    <input style="width: 250px;" type="text" name="nik"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tempat/Tanggal Lahir :</strong><br>
+                                <input style="width: 250px;" type="text"></td>
+                                <td><colspan="3"><input style="width: auto;" type="date" name="tanggal_lahir"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pendidikan terakhir :*</strong><br>
+                                    <input style="width: 250px;" type="text" name="pendidikanterakhir"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pekerjaaan :*</strong><br>
+                                    <input style="width: 250px;" type="text" name="pekerjaan"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Penghasilan :*</strong><br>
+                                    <select name="penghasilan">
+                                    <option value="kurangdari">Kurang Dari Rp. 500.000</option>
+                                    <option value="500.000">Rp. 500.000-Rp. 999.999</option>
+                                    <option value="1.000.000">Rp. 1.000.000-Rp. 1.999.999</option>
+                                    <option value="2.000.000">Rp. 2.000.000-Rp. 4.999.999</option>
+                                    <option value="5.000.000">Rp. 5.000.000-Rp. 20.000.000</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="alamat"><strong>Alamat Lengkap Ayah(Sesuai KTP):</strong></label><br>
+                                    <textarea name="alamat" rows="3" cols="50"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><strong>RT/RW:</strong><br>
+                                    <input placeholder="RT" style="width: 90px;" type="text" name="rt">
+                                    <input placeholder="RW" style="width: 90px;" type="text" name="rw">
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td><label for="angka"><strong>Kode Pos :</strong></label><br>
+                                    <input style="width: 250px;" type="angka" name="kodepos"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Kel/Desa :</strong><br>
+                                    <input style="width: 250px;" type="text" name="kel/des"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Kecamatan :</strong><br>
+                                    <input style="width: 250px;" type="text" name="kecamatan"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Telp/Hp :</strong><br>
+                                    <input style="width: 250px;" type="text" name="telp/hp"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NPWP :</strong><br>
+                                    <input style="width: 250px;" type="text" name="npwp"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Nama Ibu :*</strong><br>
+                                    <input style="width: 250px;" type="text" name="namaibu"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NIK :</strong><br>
+                                <input style="width: 250px;" type="text" name="nik"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tempat/Tanggal Lahir :</strong><br>
+                                    <input style="width: 250px;" type="text"></td>
+                                    <td><colspan="3"><input style="width: auto;" type="date" name="tanggal_lahir"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pendidikan terakhir :</strong><br>
+                                    <input style="width: 250px;" type="text" name="pendidikanterakhir"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pekerjaaan :</strong><br>
+                                    <input style="width: 250px;" type="text" name="pekerjaan"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Penghasilan :</strong><br>
+                                    <select name="penghasilan">
+                                    <option value="kurangdari">Kurang Dari Rp. 500.000</option>
+                                    <option value="500.000">Rp. 500.000-Rp. 999.999</option>
+                                    <option value="1.000.000">Rp. 1.000.000-Rp. 1.999.999</option>
+                                    <option value="2.000.000">Rp. 2.000.000-Rp. 4.999.999</option>
+                                    <option value="5.000.000">Rp. 5.000.000-Rp. 20.000.000</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="alamat"><strong>Alamat Lengkap Ibu(Sesuai KTP):</strong></label><br>
+                                    <textarea name="alamat" rows="3" cols="50"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><strong>RT/RW:</strong><br>
+                                    <input placeholder="RT" style="width: 90px;" type="text" name="rt">
+                                    <input placeholder="RW" style="width: 90px;" type="text" name="rw">
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td><label for="angka"><strong>Kode Pos :</strong></label><br>
+                                    <input style="width: 250px;" type="angka" name="kodepos"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Kel/Desa :</strong><br>
+                                    <input style="width: 250px;" type="text" name="kel/des"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Kecamatan :</strong><br>
+                                    <input style="width: 250px;" type="text" name="kecamatan"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Telp/Hp :</strong><br>
+                                    <input style="width: 250px;" type="text" name="telp/hp"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NPWP :</strong><br>
+                                    <input style="width: 250px;" type="text" name="npwp"></td>
+                            </tr>
+                            <tr>
+                                <td><h1 class="datadiriwali"><strong>Data Wali</strong></h1>
+                            </tr>
+                            <tr>
+                                <td><strong>Nama Wali :*</strong><br>
+                                    <input style="width: 250px;" type="text" name="namawali"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NIK :</strong><br>
+                                    <input style="width: 250px;" type="text" name="nik"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tempat/Tanggal Lahir :</strong><br>
+                                <input style="width: 250px;" type="text"></td>
+                                    <td><colspan="3"><input style="width: auto;" type="date" name="tanggal_lahir"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pendidkan terakhir :</strong><br>
+                                <input style="width: 250px;" type="text" name="pendidikanterakhir"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pekerjaan :</strong><br>
+                                <input style="width: 250px;" type="text" name="pekerjaan"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Penghasilan :</strong><br>
+                                    <select name="penghasilan">
+                                    <option value="kurangdari">Kurang Dari Rp. 500.000</option>
+                                    <option value="500.000">Rp. 500.000-Rp. 999.999</option>
+                                    <option value="1.000.000">Rp. 1.000.000-Rp. 1.999.999</option>
+                                    <option value="2.000.000">Rp. 2.000.000-Rp. 4.999.999</option>
+                                    <option value="5.000.000">Rp. 5.000.000-Rp. 20.000.000</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="alamat"><strong>Alamat Lengkap Wali(Sesuai KTP):</strong></label><br>
+                                    <textarea name="alamat" rows="3" cols="50"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><strong>RT/RW:</strong><br>
+                                    <input placeholder="RT" style="width: 90px;" type="text" name="rt">
+                                    <input placeholder="RW" style="width: 90px;" type="text" name="rw">
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td><label for="angka"><strong>Kode Pos :</strong></label><br>
+                                    <input style="width: 250px;" type="angka" name="kodepos"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Kel/Des :</strong><br>
+                                <input style="width: 250px;" type="text" name="kel/des"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Kecamatan :</strong><br>
+                                    <input style="width: 250px;" type="text" name="kecamatan"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Telp/Hp :</strong><br>
+                                    <input style="width: 250px;" type="text" name="telp/hp"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>NPWP :</strong><br>
+                                    <input style="width: 250px;" type="text" name="npwp"></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Informasi Mengenai STMIK KAPUTAMA</strong><br>
+                                    <input type="radio" name="sumberinformasi" id="sumberinformasi" value="brosur/spanduk/poster"><label for="sumberinformasi">Brosur/Spanduk/Poster</label>
+                                    <input type="radio" name="sumberinformasi" id="sumberinformasi" value="brosur/spanduk/poster"><label for="sumberinformasi">Media Massa</label></td>
+                                    <tr>
+                                    <td><input type="radio" name="sumberinformasi" id="sumberinformasi" value="brosur/spanduk/poster"><label for="sumberinformasi">Teman/Saudara</label>
+                                    <input type="radio" name="sumberinformasi" id="sumberinformasi" value="brosur/spanduk/poster"><label for="sumberinformasi">Sosmed</label></td></tr>
+                                    <tr>
+                                        <td><input type="radio" name="sumberinformasi" id="sumberinformasi" value="brosur/spanduk/poster"><label for="sumberinformasi"><input placeholder="Lain-lain" style="width: 450px;" type="text" name="lain-lain"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox" name="memastikandata" id="memastikandata" value="memastikandatadenganbenar"><label for="desainweb">Saya telah memastikan data yang saya isi sudah benar.</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="submit" value="Simpan"></td>
+                                    </tr>
+                            </tr>
+                            
+                    </tr>
+            </table>
+        </form>
+    </body>
+        </html>

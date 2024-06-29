@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+    <style>
+        body{
+            background-color: rgb(203, 81, 122);
+        }
+        div{
+            border: solid 5px pink;
+            color: pink;
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            margin: 100px 5px 5px 430px;
+            text-align: center;
+            border-radius: 50px;
+            box-shadow: 10px 10px 10px;
+        }
+        div h1 {
+            color: rgb(244, 236, 236);
+            text-align: center;
+            letter-spacing: 5px;
+        }
+        div input {
+            width: 90%;
+            margin-bottom: 10px;
+            height: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 15px;
+            display: block;
+        }
+        div button {
+            width: 40px;
+            height: 40px;
+            font-weight: bold;
+            font-size: 25px;
+            margin-right: 5px;
+            border-radius: 15px;
+            background-color: pink;
+        }
+        div p {
+            font-weight: bold;
+            color: black;
+            font-size: 20px;
+            background-color: pink;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+    <script>
+        function tambah(){
+            let angka1=parseInt(document.getElementById("angka1").value);
+            let angka2=parseInt(document.getElementById("angka2").value);
+            let hasil= angka1 + angka2;
+            document.getElementById('hasil').innerHTML = hasil;
+        }
+        function kurang(){
+            let angka1=parseInt(document.getElementById("angka1").value);
+            let angka2=parseInt(document.getElementById("angka2").value);
+            let hasil= angka1 - angka2;
+            document.getElementById('hasil').innerHTML = hasil;
+        }
+        function bagi(){
+            let angka1=parseInt(document.getElementById("angka1").value);
+            let angka2=parseInt(document.getElementById("angka2").value);
+            let hasil= angka1 / angka2;
+            document.getElementById('hasil').innerHTML = hasil;
+        }
+        function kali(){
+            let angka1=parseInt(document.getElementById("angka1").value);
+            let angka2=parseInt(document.getElementById("angka2").value);
+            let hasil= angka1 * angka2;
+            document.getElementById('hasil').innerHTML = hasil;
+        }
+    </script>
+</head>
+<body>
+    <div >
+        <h1>KALKULATOR</h1>
+        <input type="text" id="angka1" placeholder="masukkan angka1">
+        <input type="text" id="angka2" placeholder="masukkan angka2">
+        <button onclick="tambah()">+</button>
+        <button onclick="kurang()">-</button>
+        <button onclick="bagi()">/</button>
+        <button onclick="kali()">*</button>
+        <p id="hasil"></p>
+    </div>
+</body>
+</html>
